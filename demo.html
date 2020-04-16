@@ -1,106 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <link rel="stylesheet" href="css/search_bar.css">
-    <script src="js/search_bar.js"></script>
-    
-</head>
-
-
+      <link rel="stylesheet" href="css/search_bar.css">
+      <script src="js/search_bar.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>     
 <body>
 
-<form id="form1">
-<input type="text" class="search" id="myInput" onkeyup="mySearchFunction()" placeholder="Search for Symptoms">
-<input type="button" class="button" id="button1" value="Add" onclick="addToList()">
+<!--Make sure the form has the autocomplete function switched off:-->
+<form autocomplete="off" >
+  <div class="autocomplete" style="width:300px;">
+    <input id="myInput" class="search" type="text" name="myCountry" placeholder="Search For Symptoms">
+  </div>
+  <input type="button" class="button" id="add_button" value="Add" onclick="addToList()">
+  <input type="button" class="button" id="submit_button" value="Submit">
 </form>
 
-<div id="stateList" class="dropdown-content">
-  <p>Alabama</p>
-  <p>Alaska</p>
-  <p>Arizona</p>
-  <p>Arkansas</p> 
-  <p>Capfornia</p>
-  <p>Colorado</p>
-  <p>Connecticut</p>
-  <p>Delaware</p>
-  <p>Florida</p>
-  <p>Georgia</p>
-  <p>Hawaii</p>
-  <p>Idaho</p>
-  <p>Ilpnois</p>
-  <p>Indiana</p>
-  <p>Iowa</p>
-</div>
 
 
-
-<!-- <script type="text/javascript">
-  const list = new Array;
-  var len = list.length;
-
-  function addToList(){
-      var x = document.getElementById("myInput");
-      list.push(x.value);
-
-      var button = document.createElement("button");
-      button.classList.add("button");
-      button.innerHTML = x.value;
-
-      // 2. Append somewhere
-      var body = document.getElementsByTagName("body")[0];
-      body.appendChild(button);
-
-      button.addEventListener ("click", function() {
-      body.removeChild(button);
-      document.getElementById("button1").classList.remove("disabled");
-      var index = list.indexOf(button.innerHTML);
-      if (index !== -1) list.splice(index, 1);
-      })
-
-      if (list.length>=3) document.getElementById("button1").classList.add("disabled");
-}
-
+<script>
 
 </script>
-
-
-
-<script type="text/javascript">
-
-	ul = document.getElementById("stateList");
-	ul.style.display = "none";	
-
-function mySearchFunction() {
-  var input, filter, ul, li, item, i, txtValue;
-  input = document.getElementById("myInput");
-  //console.log(input.value);
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("stateList");
-  
-  
-
-  li = ul.getElementsByTagName("p");
-  if(input.value == "")
-  {
-  	ul.style.display = "none";
-  }
-  else{
-	  for (i = 0; i < li.length; i++) {
-	    item = li[i];
-	    txtValue = item.textContent || item.innerText;
-	    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-		    ul.style.display = "";
-	      li[i].style.display = "";
-
-	    } else {
-	      li[i].style.display = "none";
-	    	}
-	  }
-	}
-}
-
-</script> -->
 
 </body>
 </html>
