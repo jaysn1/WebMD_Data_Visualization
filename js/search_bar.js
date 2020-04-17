@@ -32,7 +32,7 @@ function addFromBar(value){
       var button = document.createElement("button");
       button.classList.add("symptom_button");
       button.innerHTML = value;
-      
+
 
       // 2. Append somewhere
       var body = document.getElementById("search bar forum");
@@ -145,6 +145,7 @@ function autocomplete(inp, arr) {
 }
 
 function generateVisualization(){
+  d3.select("#map").style("border","1px solid black");
   entered_symptoms = list;
   refreshVisualization();
 }

@@ -131,7 +131,7 @@ data.right.forEach(function(d) {
 		}  
 	}
 });
-console.log(disease_nodes1);
+//console.log(disease_nodes1);
 if (typeof(entered_symptoms[1]) !== "undefined"){
 	disease_nodes = disease_nodes0.filter(value => disease_nodes1.includes(value));
 }
@@ -139,9 +139,9 @@ else{
 	disease_nodes = disease_nodes0;
 }
 
-console.log(disease_nodes0);
-console.log(disease_nodes1);
-console.log(disease_nodes);
+//console.log(disease_nodes0);
+//console.log(disease_nodes1);
+//console.log(disease_nodes);
 
 var disease_nodes2;
 data.right.forEach(function(d) {
