@@ -1,0 +1,50 @@
+
+svg {
+    font: 12px sans-serif;
+}
+
+text {
+    pointer-events: none;
+}
+
+.final_disease_node rect {
+    pointer-events: all;
+}
+
+.final_disease_node rect.highlight {
+    stroke: red;
+    stroke-width: 2px;
+}
+
+.right_node circle {
+    fill: red;
+    stroke: red;
+    stroke-width: 1.5px;
+    pointer-events: all;
+}
+
+.right_node circle.highlight
+{
+    stroke: blue;
+    fill: blue; 
+    stroke-width: 2px;
+}
+
+.left_node circle {
+    fill: green;
+    stroke: green   ;
+    stroke-width: 1.5px;
+    pointer-events: all;
+}
+
+.left_node circle.highlight
+{
+    stroke: blue;
+    fill: blue; 
+    stroke-width: 2px;
+}
+.link {
+  stroke: grey;
+    fill: none;
+}
+
