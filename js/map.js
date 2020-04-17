@@ -106,7 +106,8 @@ data = {
     left: left.values(),
 	links: links
 }
-//refreshVisualization();
+
+
 var disease_nodes0 = [];
 data.right.forEach(function(d) {
 	if (typeof(entered_symptoms[0]) !== "undefined"){
@@ -121,15 +122,16 @@ if (typeof(entered_symptoms[0]) === "undefined"){
 }
 
 
-var disease_nodes1;
+var disease_nodes1 = [];
 data.right.forEach(function(d) {
 	if (typeof(entered_symptoms[1]) !== "undefined"){
-		if (entered_symptoms[1].includes(d.name)){
+		if (entered_symptoms[1] === d.name){
 			d.related_nodes.shift();
 			disease_nodes1 = d.related_nodes;
 		}  
 	}
 });
+console.log(disease_nodes1);
 if (typeof(entered_symptoms[1]) !== "undefined"){
 	disease_nodes = disease_nodes0.filter(value => disease_nodes1.includes(value));
 }
@@ -137,10 +139,14 @@ else{
 	disease_nodes = disease_nodes0;
 }
 
+console.log(disease_nodes0);
+console.log(disease_nodes1);
+console.log(disease_nodes);
+
 var disease_nodes2;
 data.right.forEach(function(d) {
 	if (typeof(entered_symptoms[2]) !== "undefined"){
-		if (entered_symptoms[2].includes(d.name)){
+		if (entered_symptoms[2] === d.name){
 			d.related_nodes.shift();
 			disease_nodes2 = d.related_nodes;
 		} 
@@ -237,10 +243,10 @@ var color = d3.scale.linear()
     .range([colors.length,0])
     .clamp(true);
 
-var diameter = 1000;
+// var diameter = 1000;
 var rect_width = 130;
 var rect_height = 20;
-diameter = data.final_disease.length*rect_height*2.5;
+data.final_disease.length > 10 ? diameter = data.final_disease.length*rect_height*2.5 : diameter = 600;
 
 
 //console.log(diameter);
@@ -349,25 +355,35 @@ var diagonal = d3.svg.diagonal()
 
 // x = diameter/2.5;
 // y = diameter/2.7;
-x=0, y=0;
+var x=0;
+var y=0;
+var drag = "";
+var scale = 0
 var svg = d3.select("#map").append("svg")
-    .attr("width", "95%")
+    .attr("width", "100%")
     .attr("height", "100%")
-    .call(d3.behavior.drag().on("drag", function () {
-        svg.attr("transform", function( d, i) {
-        	// console.log(d);
-        	svg.attr("x", d3.event.dx);
-        	svg.attr("y", d3.event.dy);
-        x += d3.event.dx;
-        y += d3.event.dy;
-        return "translate(" + [x, y ] + ")"
-    })}))
+    
+    
+    .call(d3.behavior.zoom().on("zoom", function () {
+    	scale = d3.event.scale;
+       d3.select("#main_viz").attr("transform", "translate(" + 405 + ", " + 270 + ") scale(" + d3.event.scale + ") scale(" + 0.7 + ")"); 
+    }))
     .append("g")
     .attr('id','main_viz')
-    .attr("transform", "translate(" + diameter / 2.5 + "," + diameter / 2.7 + ") scale(" + 0.7 +")")
-    .call(d3.behavior.zoom().on("zoom", function () {
-       d3.select("#main_viz").attr("transform", "translate(" + diameter/2.5 + ", " + diameter/2.7 + ") scale(" + d3.event.scale + ") scale("+ 0.7 +")"); 
-    }));
+    .attr("transform", drag + "translate(" + 405+ "," + 270 + ") scale(" + 0.7 + ")");
+
+
+d3.select("#map").select("svg")
+	.call(d3.behavior.drag().on("drag", function () {
+        svg.attr("transform", function( d, i) {
+        	svg.attr("dx", d3.event.dx);
+        	svg.attr("dy", d3.event.dy);
+	        x += d3.event.dx;
+    	    y += d3.event.dy;
+    	    // console.log("drag");
+    	    drag = "translate(" + 405+ "," + 270 + ") translate(" + [x, y ] +  ") scale(" + scale + ") scale(" + 0.7 + ")";
+        	return drag 
+    })}));
 
 // links
 var link = svg.append('g').attr('class', 'links').selectAll(".link")
@@ -437,7 +453,8 @@ var inode = svg.append('g').selectAll(".final_disease_node")
     .attr("class", "final_disease_node")
     .attr("transform", function(d, i) { return "translate(" + d.x + "," + d.y + ")"})
     .on("mouseover", mouseover)
-    .on("mouseout", mouseout);
+    .on("mouseout", mouseout)
+    .on("click", click);
   
 inode.append('rect')
     .attr('width', rect_width)
@@ -457,14 +474,16 @@ d3.select(self.frameElement).style("height", diameter - 150 + "px");
 
 function mouseover(d)
 {
-	for (var i = 0; i < data.final_disease.length; i++){
-		if ( !(clicked) ){		
-			d3.select('#' + data.final_disease[i].id).attr("opacity", 0.5);
-			d3.select('#' + data.final_disease[i].id + "-txt").attr("opacity", 0.5);
+	if (d.id[0] === "i"){
+		for (var i = 0; i < data.final_disease.length; i++){
+			if ( !(clicked) ){		
+				d3.select('#' + data.final_disease[i].id).attr("opacity", 0.5);
+				d3.select('#' + data.final_disease[i].id + "-txt").attr("opacity", 0.5);
+			}
 		}
+		d3.select('#' + d.id).attr("opacity", 1);
+		d3.select('#' + d.id + "-txt").attr("opacity", 1);
 	}
-	d3.select('#' + d.id).attr("opacity", 1);
-	d3.select('#' + d.id + "-txt").attr("opacity", 1);
 
 	if (!clicked){
 		d3.selectAll('.links .link').sort(function(a, b){ return d.related_links.indexOf(a.id); });
@@ -495,7 +514,7 @@ function mouseover(d)
     parts = d.value;
 	var svg_ = d3.select("#bavlo").selectAll("path").style('opacity',0.1);
 	//console.log(svg_);
-	console.log(Object.keys(d));
+	// console.log(Object.keys(d));
 	parts.forEach(function(d){
 	    part = document.getElementById(d);
 	    d3.select(part).style('opacity', 1);
