@@ -157,8 +157,4 @@ var symptoms = ['Thalassemia major', 'Wide set eyes', 'Rachitic rosary', 'Fixed 
 /*initiate the autocomplete function on the "myInput" element, and pass along the symptoms array as possible autocomplete values:*/
 window.onload = function() {
   autocomplete(document.getElementById("myInput"), symptoms);
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> 300572119398030fe729b214995aa57abfd97efc

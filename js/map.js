@@ -313,11 +313,7 @@ data.right = data.right.map(function(d, i) {
 
 data.left = data.left.map(function(d, i) { 
     d.x = left_x(i);
-<<<<<<< HEAD
     d.y = 6*diameter/10;
-=======
-    d.y = 5.5*diameter/10;
->>>>>>> 300572119398030fe729b214995aa57abfd97efc
     return d;
 });
 
