@@ -5,7 +5,6 @@ function resetPage(){
   location.reload();
 }
 
-
 function addToList(){
       var x = document.getElementById("myInput");
       list.push(x.value.toLowerCase());
