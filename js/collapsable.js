@@ -33,10 +33,10 @@ function min_max(id){
 }
 
 function set_x(){
-  all_elems = ['search bar', 'bubble chart', 'map', 'bavlo'];
+  all_elems = ['bubble chart', 'map'];
   for (i in all_elems){
     parent_width = document.getElementById(all_elems[i]).clientWidth;
-    d3.select(document.getElementById(all_elems[i]).getElementsByClassName('min_max')[0]).style("right", -parent_width+10);
-    document.getElementById(all_elems[i]).style.display="block";
+        d3.select(document.getElementById(all_elems[i]).getElementsByClassName('min_max')[0]).style("right", -parent_width+20);
+    document.getElementById(all_elems[i]).getElementsByClassName('min_max')[0].style.display = "block";
   }
 }
