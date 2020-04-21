@@ -46,6 +46,10 @@ function addFromBar(value){
       var index = list.indexOf(button.innerHTML.toLowerCase());
       if (index !== -1) list.splice(index, 1);
       })
+
+      document.getElementById('myInput').value = "";
+      document.getElementById('myInput'). setAttribute("placeholder", "Search For Symptoms");
+
 }
 
 function autocomplete(inp, arr) {
