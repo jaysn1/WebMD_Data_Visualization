@@ -483,6 +483,15 @@ function mouseover(d)
 		}
 		d3.select('#' + d.id).attr("opacity", 1);
 		d3.select('#' + d.id + "-txt").attr("opacity", 1);
+
+		///////////////////////////////
+		parts = d.value;
+		var svg_ = d3.select("#bavlo").selectAll("path").style('opacity',0.1);
+		parts.forEach(function(d){
+		    part = document.getElementById(d);
+		    d3.select(part).style('opacity', 1);
+		  });
+		//////////////////////////////
 	}
 
 	if (!clicked){
@@ -510,15 +519,17 @@ function mouseover(d)
 	        	d3.select('#' + d.related_links[i]).attr('stroke-width', '5px').attr("opacity", "0.5");
 	        }
 	    }
+
+		///////////////////////////////
+		parts = d.value;
+		var svg_ = d3.select("#bavlo").selectAll("path").style('opacity',0.1);
+		parts.forEach(function(d){
+		    part = document.getElementById(d);
+		    d3.select(part).style('opacity', 1);
+		  });
+		//////////////////////////////
+
 	}
-    parts = d.value;
-	var svg_ = d3.select("#bavlo").selectAll("path").style('opacity',0.1);
-	//console.log(svg_);
-	// console.log(Object.keys(d));
-	parts.forEach(function(d){
-	    part = document.getElementById(d);
-	    d3.select(part).style('opacity', 1);
-	  });
 }
 
 function mouseout(d)
@@ -539,8 +550,9 @@ function mouseout(d)
 	    for (var i = 0; i < d.related_links.length; i++)
 	        d3.select('#' + d.related_links[i]).attr('stroke-width', link_width).attr("opacity","0.1").style("stroke","grey");
 	}
-    var svg_ = d3.select("#bavlo").selectAll("path").style('opacity',0.1);
+    //var svg_ = d3.select("#bavlo").selectAll("path").style('opacity',0.1);
 }
+
 function click(d)
 {   	
 	if (!d.clicked){
