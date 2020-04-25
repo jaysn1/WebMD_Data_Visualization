@@ -1,430 +1,429 @@
-drug,effectiveness,easeofuse,satisfaction
-acthar,3.33,3.67,3.67
-actimmune,3.8,4,4
-adcetris,4,5,5
-adrenalin,4,4,5
-adriamycin,1,3,1
-albumin human,5,5,5
-albuterol,3.21,3.07,2.43
-alendronate,1.7,2.39,1.5
-allegra,3.45,4.45,3.07
-alrex,3.6,4.4,3.4
-altabax,3.88,4.19,3.81
-aluminum chloride hexahydrate,4.5,4.38,4
-amitriptyline,2.33,3.5,2
-amlactin,2.5,4,2.5
-ammonium lactate,4.05,4.6,4.1
-amoxil,2.33,3.67,3
-amphotericin b,4.67,2.67,4
-ampicillin,3,3.25,3
-anagrelide,3.56,3.75,3.06
-antivert,3.51,3.95,3.28
-anucort-hc,3.65,3.86,3.27
-atorvastatin,4,4,3.75
-bactroban,3.86,4.55,3.79
-betamethasone,2,2.5,2
-bevacizumab,4.5,5,5
-bicillin l-a,4.07,3.71,3.64
-bleph-10,2,4.5,4.5
-blephamide,1,2,1
-bromocriptine,3.44,3.76,3.35
-bupropion,3.23,4.23,3.03
-calcitonin,1,1,1
-calcium carbonate,1,1,1
-calcium chloride,1,3,1
-carac,4.14,4.45,3.96
-carboplatin,4.88,4.63,4.75
-cefoxitin,4,3,2
-ceftazidime,1,5,1
-ceftin,3.23,3.62,2.85
-cetirizine,3.27,4.14,3.05
-chloramphenicol,5,5,5
-chloromycetin,4.5,3.5,4.5
-chlorpromazine,4.38,4.54,4.31
-cisplatin,4.27,3.45,3.45
-clindamycin,3.86,4.57,4.14
-clobetasol,3.94,4.34,3.82
+text,size,group,filter
+acthar,3.33,4,1
+actimmune,3.8,4,1
+adcetris,4,5,1
+adrenalin,4,5,1
+adriamycin,1,1,1
+albumin human,5,5,1
+albuterol,3.21,2,1
+alendronate,1.7,2,1
+allegra,3.45,3,1
+alrex,3.6,3,1
+altabax,3.88,4,1
+aluminum chloride hexahydrate,4.5,4,1
+amitriptyline,2.33,2,2
+amlactin,2.5,3,2
+ammonium lactate,4.05,4,2
+amoxil,2.33,3,2
+amphotericin b,4.67,4,2
+ampicillin,3,3,2
+anagrelide,3.56,3,2
+antivert,3.51,3,2
+anucort-hc,3.65,3,2
+atorvastatin,4,4,2
+bactroban,3.86,4,2
+betamethasone,2,2,2
+bevacizumab,4.5,5,3
+bicillin l-a,4.07,4,3
+bleph-10,2,5,3
+blephamide,1,1,3
+bromocriptine,3.44,3,3
+bupropion,3.23,3,4
+calcitonin,1,1,4
+calcium carbonate,1,1,4
+calcium chloride,1,1,4
+carac,4.14,4,4
+carboplatin,4.88,5,4
+cefoxitin,4,2,4
+ceftazidime,1,1,4
+ceftin,3.23,3,4
+cetirizine,3.27,3,4
+chloramphenicol,5,5,4
+chloromycetin,4.5,5,5
+chlorpromazine,4.38,4,5
+cisplatin,4.27,3,5
+clindamycin,3.86,4,5
+clobetasol,3.94,4,5
 clofazimine,5,5,5
-clomiphene,2.96,3.93,2.96
-clotrimazole,2.48,3.43,2.52
-combigan,3.46,3.68,2.27
-compound w,4.75,4.5,4
+clomiphene,2.96,3,5
+clotrimazole,2.48,3,5
+combigan,3.46,2,5
+compound w,4.75,4,5
 cortisone,5,5,5
-cyclopentolate,1,2,1
-cyproheptadine,3.86,4.21,3.79
-cytarabine,4,3,2
-danocrine,2.25,3.5,2
-deferasirox,5,5,5
-deferiprone,5,5,5
-dehydroepiandrosterone,5,5,5
-deplin,3.91,4.58,3.81
-depo-provera,4.1,4,2.41
-desmopressin,3.72,4.61,3.67
-diamox,4,4.43,3.79
-diclofenac,3.95,4.45,3.7
-docusate,3.23,4.21,2.94
-doxorubicin,2,2,3
-doxycycline,3.21,3.79,3.29
-drysol,4.56,4.37,4.21
-dulera,3.4,3.79,3.12
-duofilm,5,5,5
-durezol,1.88,2.25,1.63
-econazole,3.2,4.4,3
-eflornithine,3.67,4,4
-efudex,4.32,3.95,3.76
-egrifta,3.13,3.63,3.25
-elidel,3.26,4.14,3.17
-elimite,3.36,4.36,3.18
-eltrombopag,4,4,4
-epinephrine,1.43,1.29,1.29
-epipen,4.3,4.5,4.7
-epipen 2-pak,5,5,2
-epoetin alfa,3.33,3.33,3.33
-ergocalciferol,1,5,1
-eribulin,3,3.5,4
-eurax,4,4.33,3.5
-fexofenadine,3.69,4.53,3.31
-filgrastim,5,4,5
-finacea,3.81,4.53,3.79
-flonase,3.79,4.2,2.72
-flonase allergy relief,1,5,1
-florinef,3.25,3.44,2.63
-fludrocortisone,3.41,4.18,3.18
-fluorouracil,3.86,4.16,3.59
-fluoxetine,3.58,4.39,3.33
-fluphenazine,4,5,4
-fluticasone,5,5,5
-fluvastatin,4.5,5,3.5
-gabapentin enacarbil,3.33,4,1.67
-gas-x,2.64,4.64,2.82
-gelclair,4,4,4
-gentamicin,4,5,4
-halaven,4.6,4.2,4.4
-haldol,1.5,1.5,1.5
-hemin,5,3,4
-humira,3.82,3.81,3.61
-hydroxychloroquine,3,3.84,2.66
-hydroxyzine,3.71,4.37,3.56
-hypercare,4.36,3.81,4
-ibrutinib,4,4.2,3.8
-infliximab,4.17,3.33,4
-interferon beta-1a,5,5,5
-intrarosa,3.17,3.5,3
-intron a,,,
-kayexalate,4,2.83,3.17
-kenalog,4,4,2
-kenalog-40,3.05,3.19,2.71
-labetalol,3.07,3.72,2.61
-lac-hydrin,4.33,5,3.83
-levocetirizine,3.6,4.35,3.5
-levophed,2.5,2.5,2.5
-lidocaine,2.17,1.83,2.17
-lioresal,3.86,3.86,3.57
-lioresal intrathecal,5,4,1
-liothyronine,2.95,3.86,2.59
-lotemax,4.18,4.55,3.73
-luminal,5,5,5
-lumizyme,2,3,2
-lupron depot,3.2,3.24,2.59
-maxitrol,3.18,4.27,3
-medroxyprogesterone,4.4,4.8,3.2
-mefloquine,2.8,4,1.7
-mefoxin,1,1,1
-megestrol,4.03,4.45,3.58
-meropenem,2.5,2,2.5
-methylphenidate,3.64,4.05,3.38
-metoclopramide,3.33,3.75,3.21
-metoprolol,4.11,4.22,3.94
-metrogel,3.79,4.48,3.65
-midodrine,3.89,4.19,3.32
-minocycline,3.08,3.65,2.38
-miralax,3.78,4.26,3.31
-mometasone,4.88,4.88,4.88
-montelukast,2.77,3.71,2.69
-mupirocin,3.6,4.3,3.6
-myalept,5,5,5
-myobloc,3,3,3
-myozyme,5,5,5
-naltrexone,3.98,4.18,3.71
-nebupent,5,3,2
-neo-poly-dex,3,4,3
-neutrasal,4.88,4.63,4.88
-nitazoxanide,1,1,1
-noctiva,4.33,2.33,1.33
-norepinephrine,2.5,2.5,2.5
-nortriptyline,3.35,4.01,3.03
-octreotide,4.75,4.5,4.75
-ondansetron,4.09,4.3,4.03
-opdivo,2.33,3,2.33
-ospemifene,4.5,4.5,4.5
-palbociclib,5,4.5,3.5
-pamidronate,4.83,3.5,4.33
-pancreatin,4.5,5,5
-panhematin,4,2,4
-paracetamol,4.5,4,4.25
-paromomycin,4,4,4
-penicillin g benzathine,2.8,1.8,2.4
-penicillin g potassium,1,1,3
-penicillin g sodium,5,5,5
-pentam,5,5,5
-pentamidine,5,4,4
-peridex,3.89,5,3.67
-periogard,3.2,4.8,2.8
-permethrin,3,3,3
-phenergan,3.45,2.74,2.65
-phenoxybenzamine,4.5,4.5,4
-phentermine,4.27,4.59,4.12
-phos-nak,4.5,3.5,4
-pilocarpine,3.88,3.71,3.18
-pitavastatin,3.67,2.67,3
-platinol,3,3,3
-potassium iodide,2.33,3,2.33
-prazosin,3.53,4.06,3.38
-proair hfa,1.9,2.62,1.56
-procrit,2.83,3.57,2.51
-proctocream-hc,4,3,3
-proctosol-hc,3.3,3.6,3.4
-prolia,2.19,3,2.06
-propranolol,3.57,4.14,3.29
-pyrantel,4,4.33,3.67
-ranibizumab,5,5,5
-ranitidine,4.07,4.51,3.74
-rimabotulinumtoxinb,4.5,2.5,5
-rituxan,3.46,3.45,3.28
-rituximab,3.72,3.8,3.8
-rogaine,3.17,4.08,2.75
-rosuvastatin,3.18,4.23,2.91
-ruxolitinib,4.67,5,5
-salicylic acid,2.6,2.2,2.4
-sapropterin,2,5,5
-septra,2.9,3.5,1.7
-sertraline,3.62,4.35,3.35
-sodium bicarbonate ,3.4,4.2,3.6
-sodium oxybate,4.6,4.2,3
-solaraze,2.96,4,2.74
-somatuline depot,4,4,4
-somavert,4.33,4.67,3.67
-streptomycin,1,1,1
-sumatriptan,3.93,4.44,3.62
-sylatron,4,4.5,3.5
-thiamine,3,3.25,3.25
-tobradex,3.54,3.54,3.62
-tolvaptan,4.5,4.5,4.5
-tramadol,3.22,4.16,2.98
-trazodone,3.55,4.18,3.25
-triamcinolone,5,5,5
-urea,1,4,1
-vancocin,3.08,3.75,2.67
-vancomycin,2.96,3.54,2.54
-vaniqa,3.93,4.52,3.88
-venlafaxine,3.42,3.97,2.93
-ventolin hfa,3.05,4.14,2.9
-vinblastine,5,5,1
-vincristine,4.5,4,4
-vitamin b1,3.5,2.5,3
-xeomin,2.75,4.75,1.75
-yervoy,3.63,3.63,3.63
-zarxio,1,3,1
-zolpidem,3.57,4.31,3.18
-zosyn,2.75,2.63,2.75
-acetaminophen,2.977941176,4.169117647,2.897058824
-acetazolamide,3.536842105,3.305263158,2.831578947
-acitretin,4.133333333,4.333333333,4
-adderall,4.033450704,4.285211268,3.748239437
-adipex-p,4.30442035,4.628857381,4.232693912
-advil,4.4375,4.8125,4.5
-agrylin,3.970588235,4.029411765,3.323529412
-albendazole,4,5,4
-albenza,4.166666667,4.666666667,4
-aldactazide,3.857142857,3.571428571,2.428571429
-aldactone,3.341772152,4,2.962025316
-aleve,3.652406417,4.058823529,3.245989305
-alprazolam,4.167832168,4.506293706,4.043356643
-amantadine,2.950413223,4.123966942,2.909090909
-ambien,3.839891452,4.29375848,3.346675712
-amoxicillin,3.217142857,3.628571429,2.702857143
-aripiprazole,3.490566038,4.20754717,3.094339623
-ascorbic acid,2,5,4
-aspirin,3.672727273,3.927272727,3.818181818
-atovaquone,4,4,4
-augmentin,3.267123288,3.246575342,2.534246575
-azathioprine,3.345454545,4.018181818,3.127272727
-azithromycin,3.323076923,4.073504274,2.8
-baclofen,3.289090909,4.103636364,3.129090909
-bactrim,3.049586777,3.243801653,2.185950413
-bactrim ds,2.917383821,3.068846816,2.256454389
-beano,2.755319149,3.989361702,2.574468085
-benadryl,3.805263158,4.278947368,3.510526316
-benzonatate,2.869311552,4.450408401,2.7957993
-bonine,4.344827586,4.620689655,4
-boniva,1.844537815,3.050420168,1.718487395
-cabergoline,3.987951807,3.927710843,3.614457831
-calcitriol,3.47826087,4.347826087,3.52173913
-calcium lactate,5,5,5
-captopril,3.210526316,3.315789474,2.947368421
-carafate,3.671641791,3.574626866,3.537313433
-carbamazepine,3.653333333,4.073333333,3.26
-celebrex,3.624161074,4.312751678,3.358389262
-celecoxib,3.227272727,4.022727273,2.954545455
-cephalexin,3.24137931,3.577586207,2.701149425
-cheratussin ac,2.976190476,4.071428571,2.80952381
-cipro,2.880763116,3.106518283,2.098569157
-ciprofloxacin,3.161111111,3.55,2.418518519
-clarithromycin,2.875,2.982142857,2.174107143
-clonazepam,3.955696203,4.404159132,3.790235081
-coartem,5,5,5
-colace,3.613636364,4.181818182,3.477272727
-colchicine,3.793939394,4.078787879,3.406060606
-crestor,3.328552803,3.870925684,2.371577575
-cuprimine,3.857142857,3.714285714,3
-cyclophosphamide,3.142857143,3.357142857,3.142857143
-cymbalta,3.327022375,4.046041308,3.003442341
-cytomel,3.309734513,4.044247788,3.097345133
-danazol,3.538461538,4.153846154,3.538461538
-dapsone,3.960526316,3.986842105,3.684210526
-daraprim,4.5,3.875,4.25
-depakote,3.329234973,3.848360656,2.941256831
-dexamethasone,3.5,3.50877193,2.736842105
-dexamethasone intensol,3,3.285714286,3
-diamox sequels,4.086956522,4.47826087,3.869565217
-diazepam,4.045977011,4.45210728,3.98467433
-diflucan,3.550295858,4.319526627,3.153846154
-divalproex sodium,3.159090909,3.787878788,2.818181818
-drisdol,3.025641026,4.076923077,3.153846154
-dronabinol,3.5,4.1,3.25
-dulcolax,3.797427653,3.279742765,2.36977492
-exjade,3.368421053,3.421052632,2.789473684
-ezetimibe,2.944444444,3.666666667,2.888888889
-fenofibrate,3.175925926,3.805555556,2.833333333
-fioricet,4.145985401,4.379562044,3.98783455
-fish oil,5,5,5
-flagyl,3.577264654,2.854351687,2.589698046
-fluconazole,3.320175439,4.144736842,3.004385965
-flucytosine,4,5,2
-folbic,4.043478261,4.217391304,3.869565217
-fosamax,2.020408163,2.741496599,1.840136054
-furosemide,3.217777778,4.057777778,2.995555556
-gabapentin,3.235002752,4.01210787,3.006604293
-hemangeol,4,4,4
-hydrochlorothiazide,3.269005848,3.974269006,2.768421053
-hydrocortisone,4,4.170731707,3.487804878
-hydroxyurea,3.895522388,4.059701493,3.343283582
-ibrance,3.791666667,3.958333333,3.916666667
-ibuprofen,3.553505535,4.092250923,3.376383764
-imitrex,3.741666667,4.188888889,3.408333333
-imuran,3.382857143,4.011428571,3.108571429
-indomethacin,3.717460317,4.073015873,3.396825397
-isoniazid,2.235849057,2.367924528,1.971698113
-itraconazole,3.724137931,3.862068966,3.172413793
-ivermectin,3.75,4.5,3.6875
-jadenu,3.75,3,2
-jakafi,4.4375,4.4375,4
-k-phos neutral,2,3,2
-keppra,3.651734104,4.033236994,3.158959538
-ketoconazole,3.283333333,3.783333333,2.95
-klor-con,3.769230769,3.153846154,2.884615385
-kuvan,5,5,5
-l-methylfolate,3.454545455,4.090909091,3.545454545
-lasix,3.285714286,4.081632653,2.964285714
-latuda,3.395209581,3.628742515,3.041916168
-levaquin,2.76328987,3.145436309,2.023069208
-levetiracetam,3.606837607,4.136752137,3.145299145
-levofloxacin,2.782369146,3.217630854,2
-lexapro,3.755200774,4.356071601,3.50411224
-librax,4.296703297,4.615384615,4.208791209
-lipitor,3.421686747,3.884538153,2.621485944
-lisinopril,3.369875849,3.982431483,2.7282736
-lithium,3.217391304,3.391304348,2.956521739
-livalo,3.057291667,3.645833333,2.390625
-lorazepam,3.904448105,4.378912685,3.680395387
-lovaza,3.111913357,3.768953069,2.888086643
-lyrica,3.308569567,4.006516781,2.967090257
-lysteda,3.963235294,4.198529412,3.720588235
-marinol,4.035714286,4.392857143,4.011904762
-maxalt,4.060913706,4.538071066,3.923857868
-meloxicam,3.37374861,4.203559511,3.111234705
-mepron,3.526315789,2.894736842,3.263157895
-mestinon,4.666666667,4.75,4.5
-methocarbamol,2.819587629,3.706185567,2.778350515
-methotrexate,3.458015267,4.030534351,3.221374046
-methylprednisolone,3.473594549,3.914821124,3.110732538
-metronidazole,3.684458399,3.076923077,2.87755102
-minoxidil,3.266666667,3.6,2.933333333
-mobic,3.339699864,4.129604366,3.001364256
-modafinil,3.857142857,4.404761905,3.642857143
-mucinex,3.081447964,3.794117647,2.570135747
-mycophenolate mofetil,3.631578947,3.421052632,3.052631579
-myleran,5,5,5
-naproxen,3.014824798,3.770889488,2.676549865
-natazia,4.111801242,4.416149068,2.937888199
-niacor,1,1,1
-nitroglycerin,3.047619048,3.428571429,3.095238095
-norco,3.778074866,4.27540107,3.593582888
-norethindrone,3.590163934,3.901639344,2.950819672
-nuvigil,3.862745098,4.411764706,3.540616246
-nystatin,2.968,3.672,2.752
-omeprazole,3.654347826,4.176086957,3.213043478
-osphena,3.285714286,3.647619048,2.79047619
-parlodel,3.567567568,3.324324324,3.054054054
-paxil,3.708333333,4.191666667,3.286111111
-phazyme,4.294117647,4.588235294,4.058823529
-phenobarbital,4.038961039,4.441558442,3.636363636
-phospha 250 neutral,3,4.5,3
-plaquenil,3.436860068,4.145051195,3.223549488
-potassium chloride,3.5,3.1875,2.770833333
-prednisolone,3.791044776,4.388059701,3.119402985
-prednisone,3.808618012,3.824534161,3.099767081
-prilosec,3.964705882,4.352941176,3.2
-progesterone,3.833333333,4.5,3.25
-proglycem,4,3.333333333,3.222222222
-promacta,3.888888889,4,3.444444444
-propylthiouracil,3.278846154,3.451923077,2.903846154
-provigil,4.211965812,4.620512821,4.051282051
-rapamune,4.243243243,4.27027027,3.702702703
-rayos,2.714285714,3.428571429,2.571428571
-reglan,2.875,3.286458333,2.169270833
-rifampin,3.094339623,3.283018868,2.339622642
-risperdal,3.150984683,3.761487965,2.663019694
-risperidone,3.116751269,3.898477157,2.812182741
-rizatriptan,3.709090909,4.2,3.363636364
-robaxin,3.086666667,4.146666667,3.006666667
-rocaltrol,3.533333333,3.733333333,3.266666667
-salagen,3.178571429,4.142857143,2.821428571
-samsca,2.857142857,3.428571429,2.428571429
-savella,3.170678337,3.896061269,2.907002188
-seroquel,3.44480785,3.890433361,3.035568275
-simethicone,3.709677419,4.451612903,3.516129032
-singulair,3.5761079,4.248554913,2.789980732
-sirolimus,3.666666667,3.666666667,3.333333333
-slo-niacin,3.095238095,3.571428571,2.976190476
-sodium bicarbonate,3.235294118,3.941176471,3.176470588
-sodium polystyrene sulfonate,3,4.125,3.875
-spironolactone,3.607894737,4.163157895,3.168421053
-sporanox,3.578947368,3.368421053,2.947368421
-sprycel,4.425,4.275,3.925
-stromectol,3.5,4.538461538,3.269230769
-sucralfate,3.935897436,3.307692308,3.615384615
-sulfadiazine,3,2,2.5
-tacrolimus,4.45,4.55,3.6
-temazepam,3.369897959,4.316326531,3.18877551
-thiola,3.5,4.25,3.625
-tindamax,3.588235294,3.862745098,3.254901961
-topamax,3.629888268,4.104283054,3.249068901
-topiramate,3.223628692,3.978902954,2.966244726
-tranexamic acid,3.681818182,3.818181818,3.363636364
-trexall,3.777777778,4.444444444,3.333333333
-tricor,3.062283737,3.930795848,2.387543253
-tylenol,3.183098592,4.408450704,3.183098592
-valium,3.990909091,4.409090909,3.909090909
-vibramycin,2.90625,2.78125,2.625
-vistaril,2.941489362,4.034574468,2.859042553
-vitamin d2,3.272727273,3.818181818,3.272727273
-xyrem,4.009345794,3.803738318,3.710280374
-xyzal,3.82460733,4.502617801,3.306282723
-zantac,3.888888889,4,3.888888889
-zetia,2.964102564,3.925641026,2.530769231
-zithromax,3.551724138,4.103448276,3.110344828
-zofran,4.14375,4.38125,3.8625
-zofran odt,4.041666667,4.5,3.791666667
-zoloft,3.620210368,4.274981217,3.340721262
-zyrtec,3.576923077,4.159340659,2.708791209
+cyclopentolate,1,1,6
+cyproheptadine,3.86,4,6
+cytarabine,4,2,6
+danocrine,2.25,2,6
+deferasirox,5,5,6
+deferiprone,5,5,6
+dehydroepiandrosterone,5,5,6
+deplin,3.91,4,6
+depo-provera,4.1,2,6
+desmopressin,3.72,4,6
+diamox,4,4,6
+diclofenac,3.95,4,7
+docusate,3.23,3,7
+doxorubicin,2,3,7
+doxycycline,3.21,3,7
+drysol,4.56,4,7
+dulera,3.4,3,7
+duofilm,5,5,7
+durezol,1.88,2,7
+econazole,3.2,3,7
+eflornithine,3.67,4,7
+efudex,4.32,4,7
+egrifta,3.13,3,7
+elidel,3.26,3,8
+elimite,3.36,3,8
+eltrombopag,4,4,8
+epinephrine,1.43,1,8
+epipen,4.3,5,8
+epipen 2-pak,5,2,8
+epoetin alfa,3.33,3,8
+ergocalciferol,1,1,8
+eribulin,3,4,8
+eurax,4,4,9
+fexofenadine,3.69,3,9
+filgrastim,5,5,9
+finacea,3.81,4,9
+flonase,3.79,3,9
+flonase allergy relief,1,1,9
+florinef,3.25,3,9
+fludrocortisone,3.41,3,9
+fluorouracil,3.86,4,9
+fluoxetine,3.58,3,9
+fluphenazine,4,4,9
+fluticasone,5,5,9
+fluvastatin,4.5,4,9
+gabapentin enacarbil,3.33,2,9
+gas-x,2.64,3,9
+gelclair,4,4,9
+gentamicin,4,4,9
+halaven,4.6,4,9
+haldol,1.5,2,10
+hemin,5,4,10
+humira,3.82,4,10
+hydroxychloroquine,3,3,10
+hydroxyzine,3.71,4,10
+hypercare,4.36,4,10
+ibrutinib,4,4,10
+infliximab,4.17,4,10
+interferon beta-1a,5,5,10
+intrarosa,3.17,3,10
+kayexalate,4,3,10
+kenalog,4,2,10
+kenalog-40,3.05,3,10
+labetalol,3.07,3,10
+lac-hydrin,4.33,4,11
+levocetirizine,3.6,4,11
+levophed,2.5,3,11
+lidocaine,2.17,2,11
+lioresal,3.86,4,11
+lioresal intrathecal,5,1,11
+liothyronine,2.95,3,11
+lotemax,4.18,4,12
+luminal,5,5,12
+lumizyme,2,2,12
+lupron depot,3.2,3,12
+maxitrol,3.18,3,12
+medroxyprogesterone,4.4,3,12
+mefloquine,2.8,2,12
+mefoxin,1,1,12
+megestrol,4.03,4,12
+meropenem,2.5,3,12
+methylphenidate,3.64,3,12
+metoclopramide,3.33,3,12
+metoprolol,4.11,4,12
+metrogel,3.79,4,12
+midodrine,3.89,3,12
+minocycline,3.08,2,12
+miralax,3.78,3,12
+mometasone,4.88,5,12
+montelukast,2.77,3,12
+mupirocin,3.6,4,12
+myalept,5,5,12
+myobloc,3,3,12
+myozyme,5,5,12
+naltrexone,3.98,4,12
+nebupent,5,2,13
+neo-poly-dex,3,3,13
+neutrasal,4.88,5,13
+nitazoxanide,1,1,13
+noctiva,4.33,1,13
+norepinephrine,2.5,3,13
+nortriptyline,3.35,3,13
+octreotide,4.75,5,13
+ondansetron,4.09,4,13
+opdivo,2.33,2,13
+ospemifene,4.5,5,13
+palbociclib,5,4,13
+pamidronate,4.83,4,14
+pancreatin,4.5,5,14
+panhematin,4,4,14
+paracetamol,4.5,4,14
+paromomycin,4,4,14
+penicillin g benzathine,2.8,2,14
+penicillin g potassium,1,3,14
+penicillin g sodium,5,5,14
+pentam,5,5,14
+pentamidine,5,4,14
+peridex,3.89,4,14
+periogard,3.2,3,14
+permethrin,3,3,14
+phenergan,3.45,3,15
+phenoxybenzamine,4.5,4,15
+phentermine,4.27,4,15
+phos-nak,4.5,4,15
+pilocarpine,3.88,3,15
+pitavastatin,3.67,3,15
+platinol,3,3,15
+potassium iodide,2.33,2,15
+prazosin,3.53,3,15
+proair hfa,1.9,2,15
+procrit,2.83,3,16
+proctocream-hc,4,3,16
+proctosol-hc,3.3,3,16
+prolia,2.19,2,16
+propranolol,3.57,3,16
+pyrantel,4,4,16
+ranibizumab,5,5,16
+ranitidine,4.07,4,16
+rimabotulinumtoxinb,4.5,5,16
+rituxan,3.46,3,16
+rituximab,3.72,4,16
+rogaine,3.17,3,16
+rosuvastatin,3.18,3,16
+ruxolitinib,4.67,5,16
+salicylic acid,2.6,2,16
+sapropterin,2,5,17
+septra,2.9,2,17
+sertraline,3.62,3,17
+sodium bicarbonate ,3.4,4,17
+sodium oxybate,4.6,3,17
+solaraze,2.96,3,17
+somatuline depot,4,4,17
+somavert,4.33,4,17
+streptomycin,1,1,17
+sumatriptan,3.93,4,17
+sylatron,4,4,17
+thiamine,3,3,17
+tobradex,3.54,4,18
+tolvaptan,4.5,5,18
+tramadol,3.22,3,18
+trazodone,3.55,3,18
+triamcinolone,5,5,18
+urea,1,1,18
+vancocin,3.08,3,18
+vancomycin,2.96,3,18
+vaniqa,3.93,4,18
+venlafaxine,3.42,3,18
+ventolin hfa,3.05,3,18
+vinblastine,5,1,18
+vincristine,4.5,4,19
+vitamin b1,3.5,3,19
+xeomin,2.75,2,19
+yervoy,3.63,4,19
+zarxio,1,1,19
+zolpidem,3.57,3,19
+zosyn,2.75,3,19
+acetaminophen,2.977941176,3,19
+acetazolamide,3.536842105,3,19
+acitretin,4.133333333,4,19
+adderall,4.033450704,4,19
+adipex-p,4.30442035,4,19
+advil,4.4375,5,19
+agrylin,3.970588235,3,19
+albendazole,4,4,19
+albenza,4.166666667,4,19
+aldactazide,3.857142857,2,20
+aldactone,3.341772152,3,20
+aleve,3.652406417,3,20
+alprazolam,4.167832168,4,20
+amantadine,2.950413223,3,20
+ambien,3.839891452,3,20
+amoxicillin,3.217142857,3,20
+aripiprazole,3.490566038,3,20
+ascorbic acid,2,4,20
+aspirin,3.672727273,4,20
+atovaquone,4,4,20
+augmentin,3.267123288,3,21
+azathioprine,3.345454545,3,21
+azithromycin,3.323076923,3,21
+baclofen,3.289090909,3,21
+bactrim,3.049586777,2,21
+bactrim ds,2.917383821,2,21
+beano,2.755319149,3,21
+benadryl,3.805263158,4,21
+benzonatate,2.869311552,3,21
+bonine,4.344827586,4,21
+boniva,1.844537815,2,22
+cabergoline,3.987951807,4,22
+calcitriol,3.47826087,4,22
+calcium lactate,5,5,22
+captopril,3.210526316,3,22
+carafate,3.671641791,4,22
+carbamazepine,3.653333333,3,22
+celebrex,3.624161074,3,22
+celecoxib,3.227272727,3,22
+cephalexin,3.24137931,3,22
+cheratussin ac,2.976190476,3,22
+cipro,2.880763116,2,22
+ciprofloxacin,3.161111111,2,22
+clarithromycin,2.875,2,23
+clonazepam,3.955696203,4,23
+coartem,5,5,23
+colace,3.613636364,3,23
+colchicine,3.793939394,3,23
+crestor,3.328552803,2,23
+cuprimine,3.857142857,3,23
+cyclophosphamide,3.142857143,3,23
+cymbalta,3.327022375,3,23
+cytomel,3.309734513,3,23
+danazol,3.538461538,4,23
+dapsone,3.960526316,4,23
+daraprim,4.5,4,23
+depakote,3.329234973,3,24
+dexamethasone,3.5,3,24
+dexamethasone intensol,3,3,24
+diamox sequels,4.086956522,4,24
+diazepam,4.045977011,4,24
+diflucan,3.550295858,3,24
+divalproex sodium,3.159090909,3,24
+drisdol,3.025641026,3,24
+dronabinol,3.5,3,24
+dulcolax,3.797427653,2,24
+exjade,3.368421053,3,25
+ezetimibe,2.944444444,3,25
+fenofibrate,3.175925926,3,25
+fioricet,4.145985401,4,25
+fish oil,5,5,25
+flagyl,3.577264654,3,25
+fluconazole,3.320175439,3,25
+flucytosine,4,2,25
+folbic,4.043478261,4,25
+fosamax,2.020408163,2,25
+furosemide,3.217777778,3,25
+gabapentin,3.235002752,3,26
+hemangeol,4,4,26
+hydrochlorothiazide,3.269005848,3,26
+hydrocortisone,4,3,26
+hydroxyurea,3.895522388,3,26
+ibrance,3.791666667,4,26
+ibuprofen,3.553505535,3,26
+imitrex,3.741666667,3,26
+imuran,3.382857143,3,26
+indomethacin,3.717460317,3,26
+isoniazid,2.235849057,2,26
+itraconazole,3.724137931,3,26
+ivermectin,3.75,4,27
+jadenu,3.75,2,27
+jakafi,4.4375,4,27
+k-phos neutral,2,2,27
+keppra,3.651734104,3,27
+ketoconazole,3.283333333,3,27
+klor-con,3.769230769,3,27
+kuvan,5,5,27
+l-methylfolate,3.454545455,4,28
+lasix,3.285714286,3,28
+latuda,3.395209581,3,28
+levaquin,2.76328987,2,28
+levetiracetam,3.606837607,3,28
+levofloxacin,2.782369146,2,28
+lexapro,3.755200774,4,28
+librax,4.296703297,4,28
+lipitor,3.421686747,3,28
+lisinopril,3.369875849,3,28
+lithium,3.217391304,3,28
+livalo,3.057291667,2,29
+lorazepam,3.904448105,4,29
+lovaza,3.111913357,3,29
+lyrica,3.308569567,3,29
+lysteda,3.963235294,4,29
+marinol,4.035714286,4,29
+maxalt,4.060913706,4,29
+meloxicam,3.37374861,3,29
+mepron,3.526315789,3,29
+mestinon,4.666666667,5,29
+methocarbamol,2.819587629,3,29
+methotrexate,3.458015267,3,30
+methylprednisolone,3.473594549,3,30
+metronidazole,3.684458399,3,30
+minoxidil,3.266666667,3,30
+mobic,3.339699864,3,30
+modafinil,3.857142857,4,30
+mucinex,3.081447964,3,30
+mycophenolate mofetil,3.631578947,3,30
+myleran,5,5,30
+naproxen,3.014824798,3,30
+natazia,4.111801242,3,31
+niacor,1,1,31
+nitroglycerin,3.047619048,3,31
+norco,3.778074866,4,31
+norethindrone,3.590163934,3,31
+nuvigil,3.862745098,4,31
+nystatin,2.968,3,31
+omeprazole,3.654347826,3,31
+osphena,3.285714286,3,31
+parlodel,3.567567568,3,32
+paxil,3.708333333,3,32
+phazyme,4.294117647,4,32
+phenobarbital,4.038961039,4,32
+phospha 250 neutral,3,3,32
+plaquenil,3.436860068,3,32
+potassium chloride,3.5,3,32
+prednisolone,3.791044776,3,33
+prednisone,3.808618012,3,33
+prilosec,3.964705882,3,33
+progesterone,3.833333333,3,33
+proglycem,4,3,33
+promacta,3.888888889,3,33
+propylthiouracil,3.278846154,3,33
+provigil,4.211965812,4,33
+rapamune,4.243243243,4,33
+rayos,2.714285714,3,34
+reglan,2.875,2,34
+rifampin,3.094339623,2,34
+risperdal,3.150984683,3,34
+risperidone,3.116751269,3,34
+rizatriptan,3.709090909,3,34
+robaxin,3.086666667,3,34
+rocaltrol,3.533333333,3,34
+salagen,3.178571429,3,35
+samsca,2.857142857,2,35
+savella,3.170678337,3,35
+seroquel,3.44480785,3,35
+simethicone,3.709677419,4,35
+singulair,3.5761079,3,35
+sirolimus,3.666666667,3,35
+slo-niacin,3.095238095,3,35
+sodium bicarbonate,3.235294118,3,35
+sodium polystyrene sulfonate,3,4,36
+spironolactone,3.607894737,3,36
+sporanox,3.578947368,3,36
+sprycel,4.425,4,36
+stromectol,3.5,3,36
+sucralfate,3.935897436,4,36
+sulfadiazine,3,3,36
+tacrolimus,4.45,4,36
+temazepam,3.369897959,3,36
+thiola,3.5,4,36
+tindamax,3.588235294,3,36
+topamax,3.629888268,3,37
+topiramate,3.223628692,3,37
+tranexamic acid,3.681818182,3,37
+trexall,3.777777778,3,37
+tricor,3.062283737,2,37
+tylenol,3.183098592,3,37
+valium,3.990909091,4,37
+vibramycin,2.90625,3,37
+vistaril,2.941489362,3,37
+vitamin d2,3.272727273,3,38
+xyrem,4.009345794,4,38
+xyzal,3.82460733,3,38
+zantac,3.888888889,4,38
+zetia,2.964102564,3,38
+zithromax,3.551724138,3,38
+zofran,4.14375,4,38
+zofran odt,4.041666667,4,38
+zoloft,3.620210368,3,38
+zyrtec,3.576923077,3,38
