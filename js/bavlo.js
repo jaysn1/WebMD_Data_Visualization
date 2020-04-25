@@ -35,7 +35,7 @@ var svg = d3.select("#bavlo")
 			.on("mouseover", function(d){
 		          d3.select(this).style("opacity",1);
 		          svg.call(tip);
-		          console.log(this.id);
+		          //console.log(this.id);
 		          tip.show(this.id);
 				    })
 			.on("mouseout", function(d) {
