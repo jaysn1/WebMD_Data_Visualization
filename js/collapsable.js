@@ -14,6 +14,7 @@ function min_max(id){
       document.getElementById(id).style.display = "block";
       console.log(id);
       if(id == 'bubble chart'){
+
         generate(med_review);
       }
     }
@@ -22,6 +23,7 @@ function min_max(id){
       if(id=='bubble chart'){document.getElementById(id).style.width = '20%';}
         else{document.getElementById(id).style.width = '60%';}
       if(id == 'bubble chart'){
+        document.getElementById(id).style.height = "40%";
         generate(med_review);
       }
       for (i in all_elems){
