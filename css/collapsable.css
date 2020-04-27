@@ -1,12 +1,12 @@
 .min_max{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	position: relative;
-	top:-1%; 
+	top:-2%; 
 	display: none;
-	height: 20px;
-	width: 20px;
-	background-color: red;
-	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	/*background-color: #4CAF50;*/
+	/*border-radius: 50%;*/
 	font-size: 11pt;
  	font-family: tahoma;
  	text-align: center;

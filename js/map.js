@@ -357,22 +357,22 @@ function refreshVisualization(){
 
 	// x = diameter/2.5;
 	// y = diameter/2.7;
-	var x=0;
-	var y=0;
+	var x=605;
+	var y=270;
 	var drag = "";
 	var scale = 0
 	var svg = d3.select("#map").append("svg")
 	    .attr("width", "100%")
-	    .attr("height", "100%")
+	    .attr("height", "95%")
 	    
 	    
 	    .call(d3.behavior.zoom().on("zoom", function () {
 	    	scale = d3.event.scale;
-	       d3.select("#main_viz").attr("transform", "translate(" + 405 + ", " + 270 + ") scale(" + d3.event.scale + ") scale(" + 0.7 + ")"); 
+	       d3.select("#main_viz").attr("transform", "translate(" + x + ", " + y + ") scale(" + d3.event.scale + ") scale(" + 0.7 + ")"); 
 	    }))
 	    .append("g")
 	    .attr('id','main_viz')
-	    .attr("transform", drag + "translate(" + 405+ "," + 270 + ") scale(" + 0.7 + ")");
+	    .attr("transform", drag + "translate(" + x+ "," + y + ") scale(" + 0.7 + ")");
 
 
 	d3.select("#map").select("svg")
@@ -383,7 +383,7 @@ function refreshVisualization(){
 		        x += d3.event.dx;
 	    	    y += d3.event.dy;
 	    	    // console.log("drag");
-	    	    drag = "translate(" + 405+ "," + 270 + ") translate(" + [x, y ] +  ") scale(" + scale + ") scale(" + 0.7 + ")";
+	    	    drag = "translate(" + [x, y ] +  ") scale(" + scale + ") scale(" + 0.7 + ")";
 	        	return drag 
 	    })}));
 
