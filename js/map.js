@@ -163,8 +163,6 @@ function refreshVisualization(){
 		}
 		
 	}
-
-	// //console.log(filtered_symptoms);
 	data.right = filtered_symptoms;
 
 	var filtered_medicines = [];
@@ -190,23 +188,6 @@ function refreshVisualization(){
 
 	// //console.log(filtered_medicines);
 	data.left = filtered_medicines;
-	
-
-
-	// var i1 = 0;
-	// var i2 = right.length - 1;
-	// var i3 = left.length - 1;
-
-	// for (var i = 0; i < data.right.length; ++i)
-	// {
-	// 	if (i % 2 == 1)
-	// 		data.right[i2--] = right[i];
-	// 	else
-	// 		data.right[i1++] = right[i];
-	// }
-
-	// //console.log(data.right.reduce(function(a,b) { return a + b.related_links.length; }, 0) / data.right.length);
-
 
 	var colors = ["#ffff33"," #6699cc"," #339966"," #996699","#6699cc"]
 	var color = d3.scale.linear()
@@ -328,8 +309,8 @@ function refreshVisualization(){
 
 	// x = diameter/2.5;
 	// y = diameter/2.7;
-	var x=605;
-	var y=270;
+	var x=550;
+	var y=230;
 	var drag = "";
 	var scale = 0
 	var svg = d3.select("#map").append("svg")
@@ -357,6 +338,50 @@ function refreshVisualization(){
 	    	    drag = "translate(" + [x, y ] +  ") scale(" + scale + ") scale(" + 0.7 + ")";
 	        	return drag 
 	    })}));
+
+	var legend = d3.select("#map").select("svg");
+
+		legend.append("rect")
+		.attr("height", 55)
+		.attr("width", 100)
+		.attr("x", 935)
+		.attr("y", 380)
+		.attr("fill",  "#DDDDDD")
+		.style("stroke", "black")
+		.style("rx", 5);
+
+		legend.append("circle")
+		.attr("cx", 950)
+		.attr("cy", 395)
+		.style("fill", "green")
+		.attr("r", 4.5);
+
+		legend.append("text")
+		.attr("x", 985)
+		.attr("y", 400)
+		.attr("text-anchor", "middle")
+		.text("Medicines");
+
+		legend.append("circle")
+		.attr("cx", 950)
+		.attr("cy", 415)
+		.style("fill", "red")
+		.attr("r", 4.5);
+
+		legend.append("text")
+		.attr("x", 985)
+		.attr("y", 420)
+		.attr("text-anchor", "middle")
+		.text("Symptoms");
+		
+		
+		// legend.append("circle")
+		// .attr("r", 4.5)
+		// .attr("fill", "green");
+		// legend.append("text")
+		// .attr("x", 5)
+		// .attr("y", 5)
+		
 
 	// links
 	var link = svg.append('g').attr('class', 'links').selectAll(".link")
