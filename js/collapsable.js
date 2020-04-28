@@ -1,6 +1,6 @@
 function min_max(id){
     all_elems = ['search bar', 'bubble chart', 'map', 'bavlo'];
-    
+    console.log(id);
     if(document.getElementById(id).style.height != "100%"){
 
       document.getElementById(id).style.height = '100%';
@@ -11,20 +11,35 @@ function min_max(id){
 
       selected_elem = all_elems.filter(x => !Array(id).includes(x));
       for (i in selected_elem){document.getElementById(selected_elem[i]).style.display="none";}
+      //document.getElementsBy
+
       document.getElementById(id).style.display = "block";
       console.log(id);
       if(id == 'bubble chart'){
-
+        document.getElementById(id).style['margin-left'] = "0%";
+        document.getElementById(id).style['margin-top'] = "0%";
         generate(med_review);
       }
     }
     else{
-      document.getElementById(id).style.height = '90%';
-      if(id=='bubble chart'){document.getElementById(id).style.width = '20%';}
-        else{document.getElementById(id).style.width = '60%';}
-      if(id == 'bubble chart'){
-        document.getElementById(id).style.height = "40%";
+      if(id=='bubble chart'){
+        document.getElementById(id).style.width = '80%';
+        document.getElementById(id).style.height = '60%';
+        document.getElementById(id).style['margin-left'] = "10%";
+        document.getElementById(id).style['margin-top'] = "2%";
         generate(med_review);
+      }
+      else if(id=='bavlo'){
+        document.getElementById(id).style.width = '18%';
+        document.getElementById(id).style.height = '80%';
+      }
+      else if(id=='map'){
+        document.getElementById(id).style.width = '80%';
+        document.getElementById(id).style.height = '80%';
+        document.getElementById(id).style['margin-left'] = "1%";
+      }
+      else{
+        document.getElementById(id).style.width = '60%';
       }
       for (i in all_elems){
         document.getElementById(all_elems[i]).style.display="block";
