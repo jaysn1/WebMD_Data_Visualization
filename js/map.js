@@ -339,38 +339,42 @@ function refreshVisualization(){
 	        	return drag 
 	    })}));
 
+
+
 	var legend = d3.select("#map").select("svg");
+	var width = parseInt(legend.style("width"));
+	var height = parseInt(legend.style("height"));
 
 		legend.append("rect")
 		.attr("height", 55)
 		.attr("width", 100)
-		.attr("x", 935)
-		.attr("y", 380)
+		.attr("x", width*0.9)
+		.attr("y", height*0.85)
 		.attr("fill",  "#DDDDDD")
 		.style("stroke", "black")
 		.style("rx", 5);
 
 		legend.append("circle")
-		.attr("cx", 950)
-		.attr("cy", 395)
+		.attr("cx", width*0.91)
+		.attr("cy", height*0.88)
 		.style("fill", "green")
 		.attr("r", 4.5);
 
 		legend.append("text")
-		.attr("x", 985)
-		.attr("y", 400)
+		.attr("x", width*0.94)
+		.attr("y", height*0.89)
 		.attr("text-anchor", "middle")
 		.text("Medicines");
 
 		legend.append("circle")
-		.attr("cx", 950)
-		.attr("cy", 415)
+		.attr("cx", width*0.91)
+		.attr("cy", height*0.92)
 		.style("fill", "red")
 		.attr("r", 4.5);
 
 		legend.append("text")
-		.attr("x", 985)
-		.attr("y", 420)
+		.attr("x", width*0.94)
+		.attr("y", height*0.93)
 		.attr("text-anchor", "middle")
 		.text("Symptoms");
 		
