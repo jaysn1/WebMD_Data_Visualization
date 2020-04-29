@@ -20,6 +20,49 @@ function min_max(id){
         document.getElementById(id).style['margin-top'] = "0%";
         generate(med_review);
       }
+      else if(id=='map'){
+        d3.select('#legend-rect').remove();
+        d3.select('#legend-text1').remove();
+        d3.select('#legend-text2').remove();
+        d3.select('#legend-circle1').remove();
+        d3.select('#legend-circle2').remove();
+        var legend = d3.select("#map").select("svg");
+        var width = parseInt(legend.style("width"));
+        var height = parseInt(legend.style("height"));
+
+          legend.append("rect").attr("id", "legend-rect")
+          .attr("height", 55)
+          .attr("width", 100)
+          .attr("x", width*0.9)
+          .attr("y", height*0.85)
+          .attr("fill",  "#DDDDDD")
+          .style("stroke", "black")
+          .style("rx", 5);
+
+          legend.append("circle").attr("id", "legend-circle1")
+          .attr("cx", width*0.91)
+          .attr("cy", height*0.875)
+          .style("fill", "green")
+          .attr("r", 4.5);
+
+          legend.append("text").attr("id", "legend-text1")
+          .attr("x", width*0.94)
+          .attr("y", height*0.88)
+          .attr("text-anchor", "middle")
+          .text("Medicines");
+
+          legend.append("circle").attr("id", "legend-circle2")
+          .attr("cx", width*0.91)
+          .attr("cy", height*0.91)
+          .style("fill", "red")
+          .attr("r", 4.5);
+
+          legend.append("text").attr("id", "legend-text2")
+          .attr("x", width*0.94)
+          .attr("y", height*0.915)
+          .attr("text-anchor", "middle")
+          .text("Symptoms");
+      }
     }
     else{
       if(id=='bubble chart'){
@@ -27,7 +70,7 @@ function min_max(id){
         document.getElementById(id).style.height = '60%';
         document.getElementById(id).style['margin-left'] = "10%";
         document.getElementById(id).style['margin-top'] = "2%";
-        generate(med_review);
+        generate(medicines);
       }
       else if(id=='bavlo'){
         document.getElementById(id).style.width = '18%';
@@ -37,6 +80,48 @@ function min_max(id){
         document.getElementById(id).style.width = '80%';
         document.getElementById(id).style.height = '80%';
         document.getElementById(id).style['margin-left'] = "1%";
+        d3.select('#legend-rect').remove();
+        d3.select('#legend-text1').remove();
+        d3.select('#legend-text2').remove();
+        d3.select('#legend-circle1').remove();
+        d3.select('#legend-circle2').remove();
+        
+        var legend = d3.select("#map").select("svg");
+        var width = parseInt(legend.style("width"));
+        var height = parseInt(legend.style("height"));
+
+          legend.append("rect").attr("id", "legend-rect")
+          .attr("height", 55)
+          .attr("width", 100)
+          .attr("x", width*0.9)
+          .attr("y", height*0.85)
+          .attr("fill",  "#DDDDDD")
+          .style("stroke", "black")
+          .style("rx", 5);
+
+          legend.append("circle").attr("id", "legend-circle1")
+          .attr("cx", width*0.91)
+          .attr("cy", height*0.88)
+          .style("fill", "green")
+          .attr("r", 4.5);
+
+          legend.append("text").attr("id", "legend-text1")
+          .attr("x", width*0.94)
+          .attr("y", height*0.89)
+          .attr("text-anchor", "middle")
+          .text("Medicines");
+
+          legend.append("circle").attr("id", "legend-circle2")
+          .attr("cx", width*0.91)
+          .attr("cy", height*0.92)
+          .style("fill", "red")
+          .attr("r", 4.5);
+
+          legend.append("text").attr("id", "legend-text2")
+          .attr("x", width*0.94)
+          .attr("y", height*0.93)
+          .attr("text-anchor", "middle")
+          .text("Symptoms");
       }
       else{
         document.getElementById(id).style.width = '60%';
@@ -45,6 +130,7 @@ function min_max(id){
         document.getElementById(all_elems[i]).style.display="block";
         parent_width = document.getElementById(all_elems[i]).clientWidth;
       }
+      change_bubble();
       set_x();
     }
 }
