@@ -52,7 +52,7 @@ function addFromBar(value){
       })
 
       document.getElementById('myInput').value = "";
-      document.getElementById('myInput'). setAttribute("placeholder", "Search For Symptoms");
+      document.getElementById('myInput'). setAttribute("placeholder", "Search For Your Symptoms");
 
 }
 
