@@ -27,6 +27,19 @@
         margin-bottom: 12px; /* Add some space below the input */
       }
 
+.button-submit{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        border-radius: 12px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+      }
+
 .button {
         background-color: #4CAF50; /* Green */
         border: none;
@@ -62,6 +75,10 @@
         font-size: 10px;
         transition-duration: 0.4s;
 }
+
+.symptom_button:hover {
+        background-color: red;
+      }
 
 * {
   box-sizing: border-box;
