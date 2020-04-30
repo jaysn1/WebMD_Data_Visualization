@@ -238,7 +238,7 @@ function refreshVisualization(){
 	// var diameter = 1000;
 	var rect_width = 130;
 	var rect_height = 20;
-	data.final_disease.length > 10 ? diameter = data.final_disease.length*rect_height*2.5 : diameter = 600;
+	data.final_disease.length > 24 ? diameter = data.final_disease.length*rect_height*2.5 : diameter = 1100;
 
 
 	//console.log(diameter);
@@ -290,14 +290,14 @@ function refreshVisualization(){
 	    	d.x = right_x_l(i);
 	    }
 	    else{
-	    	if (d.name.length >= 50) {
-	    		d.y = 4.01*diameter/10
-	    		d.x = right_x_l(i);
-	    	}
-	    	else{
+	    	// if (d.name.length >= 50) {
+	    	// 	d.y = 4.01*diameter/10
+	    	// 	d.x = right_x_l(i);
+	    	// }
+	    	// else{
 	    		d.y = 2.5*diameter/10
 	    		d.x = right_x_s(i);
-	    	}
+	    	// }
 	    }
 	    // d.y = i % 2 == 0 ? 4*diameter/10 : d.name.length >= 30 ? 4*diameter/10 : 2*diameter/8;
 	    return d;
